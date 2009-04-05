@@ -1,7 +1,7 @@
 Foreign Domain Routing + 
 Request Routing Plugin for Ruby on Rails 
-=========================================
-= Foreign Domain Request Routing
+-----------------------------------------
+=> Foreign Domain Request Routing
 
 -------------------------------------------------------------------------------
 Foreign Domain Routing provides simple handling of foreign domains in Rails.
@@ -121,3 +121,6 @@ The allowed properties are:
 		:request_uri (the entire request uri)
 		:protocol (either http:// or https://)
 
+== Copyright
+
+Copyright (c) 2009 Joe Scharf. See LICENSE for details.

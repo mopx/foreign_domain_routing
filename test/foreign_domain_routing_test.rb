@@ -1,6 +1,4 @@
-require 'rubygems'
-require 'test/unit'
-require 'action_controller'
+require 'test_helper'
 
 require File.dirname(__FILE__) + "/../init"
 RAILS_ENV = :test

@@ -1,7 +1,7 @@
 require 'foreign_domain_routing/routing_extensions'
 
 module ForeignDomainRouting
-  DEFAULT_NATIVE_DOMAINS = {:development => ['localhost:3000'], :staging => ['staging.example.com'], :production => ['example.com'] }
+  DEFAULT_NATIVE_DOMAINS = {:development => ['localhost:3000'], :test => ['test.host'], :production => ['example.com'] }
   mattr_accessor :init_native_domains
   @@init_native_domains = DEFAULT_NATIVE_DOMAINS.dup
     

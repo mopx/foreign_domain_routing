@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors = ["Joe Scharf"]
   s.date = %q{2009-04-05}
   s.email = %q{joe@quantipay.com}
-  s.extra_rdoc_files = ["README.rdoc"]
-  s.files = ["README.rdoc", "VERSION.yml", "lib/foreign_domain_routing", "lib/foreign_domain_routing/routing_extensions.rb", "lib/foreign_domain_routing.rb", "test/foreign_domain_routing_test.rb", "test/test_helper.rb"]
+  s.extra_rdoc_files = ["README"]
+  s.files = ["VERSION.yml", "lib/foreign_domain_routing", "lib/foreign_domain_routing/routing_extensions.rb", "lib/foreign_domain_routing.rb", "test/foreign_domain_routing_test.rb", "test/test_helper.rb", "README"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/quantipay/foreign-domain-routing-gem}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
